@@ -1,0 +1,29 @@
+    .file-bg{
+    margin: 4px;
+    min-width: 476px;
+    min-height: 552px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0);
+    background: #f6f6f8;
+    -webkit-box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 20%);
+}
+
+.d-flex{
+    display: flex;
+
+}
+
+a.file-bg:hover{
+    background: #d0ebff;
+}
